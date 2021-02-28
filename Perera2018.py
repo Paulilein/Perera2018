@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Halperin2015_SI_Data.csv', sep=';')
+dataset = pd.read_csv('Perera2018_Data.csv', sep=';')
 X = dataset.iloc[:, 1:].values
 y = dataset.iloc[:, 0].values
 # Want y to be in a 2D array [[]]. right now, its a vector
